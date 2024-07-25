@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+#amo {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+}
+
+.mytab {
+    list-style: none;
+    padding: 0;
+}
+
+.mytab li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid;
+    border-left-color: inherit;
+    border-radius: 5px;
+}
+
+.mytab li.income {
+    border-left-color: green;
+}
+
+.mytab li.expense {
+    border-left-color: red;
+}
