@@ -1,0 +1,32 @@
+.buttons-align
+{
+    height: 20vh;
+    display: flex;
+    gap : 10px;
+    justify-content: center;
+    align-items: center;
+}
+.button 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 20px;
+}
+.daily
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3%;
+}
+.ttype
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
